@@ -1,0 +1,57 @@
+body{
+  background-color: rgb(236, 120, 164);
+  color: white;
+}
+  body {
+    font-family: 'Roboto', sans-serif; /* Texto normal */
+}
+h1, h3 {
+    font-family: 'Playfair Display', serif; /* Apenas os títulos */
+}
+
+
+
+   header{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+    }
+
+    #html{
+    color:rgb(160, 7, 140)
+    }
+
+    #css{
+      color:rgb(160, 7, 140)
+    }
+
+    #javascript{
+      color:rgb(160, 7, 140)
+    }
+
+    button{
+      background-color:rgb(238, 92, 116);
+      padding: 10px 20px; /* ESPACO INTERNO */
+      margin: 10px; /*ESPAÇO INTERNO */
+      border-radius: 10px; /* BORDA */
+      max-width: 100px;
+    }
+
+   /*Cor do título principal (kalefornia)*/
+h1 {
+    color: #ff006a; 
+}
+
+/*Cor do segundo título (Praias, cultura pop...) */
+header h3 {
+    color: #4b0361; 
+}
+
+/*Cor do terceiro título (CALIFORNIA:) */
+div h3 {
+    color: #bd0000; 
+}
+
+     
